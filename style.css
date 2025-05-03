@@ -11,6 +11,8 @@ body {
     height: 100vh;
     background-color: #000;
     overflow: hidden;
+    /* background:linear-gradient(rgb(255, 166, 0) , rgb(255, 255, 255) , rgb(0, 128, 0)); */
+    visibility: 0.8;
 }
 
 .container {
@@ -29,7 +31,7 @@ body {
     width: calc(var(--i)*2.5vmin);
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 3px solid rgb(0, 255, 13);
+    border: 3px solid rgb(0, 255, 21);
     transform-style: preserve-3d;
     transform: rotateX('70deg') translateZ(50px);
     animation: animate 3s ease-in-out calc(var(--i)*0.08s) infinite;
